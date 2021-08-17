@@ -7,7 +7,7 @@ cnt=0
 serialArduino = serial.Serial('COM5', 9600)
 
 def plotValues():
-    plt.title('Thermal Cabinete Control')
+    plt.title('Thermal Cabinet Control')
     plt.grid(True)
     plt.ylabel('Values')
     plt.plot(values, 'rx-', label='values')
